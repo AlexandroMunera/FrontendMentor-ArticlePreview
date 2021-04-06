@@ -8,10 +8,10 @@ for (var i = 0; i < shareButtons.length; i++) {
 
 function showFooterActive() {
   if (footer.style.display === "none") {
-    footer.style.display = "block";
+    footer.style.display = "flex";
     footerActive.style.display = "none";
   } else {
     footer.style.display = "none";
-    footerActive.style.display = "block";
+    footerActive.style.display = "flex";
   }
 }
