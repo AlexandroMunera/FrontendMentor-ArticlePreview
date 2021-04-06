@@ -119,9 +119,7 @@ body {
 }
 
 .card #card__button-tooltip {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+  display: none;
   background-color: #48556a;
   padding: 0 23px;
   -webkit-box-pack: justify;
