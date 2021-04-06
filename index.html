@@ -25,55 +25,63 @@
   <body>
     <main class="card">
       <header class="card__header"></header>
-      <div class="card__body">
-        <h3 class="card_title">
-          Shift the overall look and feel by adding these wonderful touches to
-          furniture in your home
-        </h3>
-        <p class="card__description">
-          Ever been in a room and felt like something was missing? Perhaps it
-          felt slightly bare and uninviting. I’ve got some simple tips to help
-          you make any room feel complete.
-        </p>
+      <div>
+        <div class="card__body">
+          <h3 class="card_title">
+            Shift the overall look and feel by adding these wonderful touches to
+            furniture in your home
+          </h3>
+          <p class="card__description">
+            Ever been in a room and felt like something was missing? Perhaps it
+            felt slightly bare and uninviting. I’ve got some simple tips to help
+            you make any room feel complete.
+          </p>
+        </div>
+
+        <footer id="card__footer">
+          <div class="card__profile">
+            <img
+              class="card__image"
+              src="images/avatar-michelle.jpg"
+              alt="avatar"
+            />
+            <div class="card__profileInfo">
+              <p class="card__name">Michelle Appleton</p>
+              <span class="card__date"> 28 Jun 2020 </span>
+            </div>
+          </div>
+          <span class="card__button"></span>
+        </footer>
+
+        <footer id="card__footer-active">
+          <div class="card__socialButtons">
+            <span>SHARE</span>
+            <img
+              class="card__socialButton"
+              src="images/icon-facebook.svg"
+              alt="Facebook"
+            />
+            <img
+              class="card__socialButton"
+              src="images/icon-twitter.svg"
+              alt="Twitter"
+            />
+            <img
+              class="card__socialButton"
+              src="images/icon-pinterest.svg"
+              alt="Pinterest"
+            />
+          </div>
+
+          <span class="card__button card__button-active">
+            <svg xmlns="http://www.w3.org/2000/svg" width="15" height="13">
+              <path
+                d="M15 6.495L8.766.014V3.88H7.441C3.33 3.88 0 7.039 0 10.936v2.049l.589-.612C2.59 10.294 5.422 9.11 8.39 9.11h.375v3.867L15 6.495z"
+              />
+            </svg>
+          </span>
+        </footer>
       </div>
-
-      <footer id="card__footer">
-        <img
-          class="card__image"
-          src="images/avatar-michelle.jpg"
-          alt="avatar"
-        />
-        <div class="card__profileInfo">
-          <p class="card__name">Michelle Appleton</p>
-          <span class="card__date"> 28 Jun 2020 </span>
-        </div>
-        <span class="card__button"></span>
-      </footer>
-
-      <footer id="card__footer-active">
-        <div class="card__socialButtons">
-          <span>SHARE</span>
-          <img
-          class="card__socialButton"
-          src="images/icon-facebook.svg"
-          alt="Facebook"
-        />
-        <img
-          class="card__socialButton"
-          src="images/icon-twitter.svg"
-          alt="Twitter"
-        />
-        <img
-          class="card__socialButton"
-          src="images/icon-pinterest.svg"
-          alt="Pinterest"
-        />
-        </div>
-        
-        <span class="card__button card__button-active">
-          <svg xmlns="http://www.w3.org/2000/svg" width="15" height="13"><path d="M15 6.495L8.766.014V3.88H7.441C3.33 3.88 0 7.039 0 10.936v2.049l.589-.612C2.59 10.294 5.422 9.11 8.39 9.11h.375v3.867L15 6.495z"/></svg>
-        </span>
-      </footer>
     </main>
 
     <script src="script.js" />
